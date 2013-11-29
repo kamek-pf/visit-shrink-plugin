@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<Plugin name="Shrink" type="operator" label="Shrink" version="1.0" enabled="true" mdspecificcode="false" engspecificcode="false" onlyengine="false" noengine="false">
+    <CXXFLAGS>
+        -L/usr/local/2.7.0/linux-x86_64/archives/
+    </CXXFLAGS>
+    <LDFLAGS>
+        -L/usr/local/2.7.0/linux-x86_64/archives/
+    </LDFLAGS>
+    <Attribute name="Scale" purpose="Set scale factor" persistent="true" keyframe="false" exportAPI="" exportInclude="">
+        <Field name="ScaleFactor" label="Scale factor" type="double">.5</Field>
+    </Attribute>
+</Plugin>
